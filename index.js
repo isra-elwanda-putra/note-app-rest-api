@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 const mongoose = require('mongoose');
-const Note = require('./models/Note');
+const Note = require('./models/note');
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
